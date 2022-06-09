@@ -1,8 +1,6 @@
 # 300 Plattformübergreifende Dienste in ein Netzwerk integrieren
 
 ### Lernziele:
-Lernziele:
-
 1. Cloud «ready» 
 - Kennt den Begriff Cloud und die Technische Realisierung
 2. Infrastruktur als Code (Infrastructure asCode, IaC)
@@ -16,10 +14,13 @@ Lernziele:
 6. Nachvollziehbarkeit
 - Kennt wie man Versionsverwaltungssysteme einsetzt
 
-
+### Voraussetzungen
+- PC/Notebook mit min. 8 GB freiem RAM, ca. 20 GB freiem HD-Speicher und einer Ethernet-Netzwerkkarte.
+- Einfache Linux und Apache Web Server Kenntnisse sind von Vorteil.
+- Ein schneller Netzwerk- (Kabel!) und Internet-Anschluss
 
 # Inhaltsverszeichnis
-
+fsggdf
 ## 10-Toolumgebungen 
 Einträge (eigene Erkenntnisse während dem Bearbeiten dieses Kapitels)
 
