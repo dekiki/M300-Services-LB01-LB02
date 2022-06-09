@@ -5,19 +5,14 @@ Lernziele:
 
 1. Cloud «ready» 
 - Kennt den Begriff Cloud und die Technische Realisierung
-
 2. Infrastruktur als Code (Infrastructure asCode, IaC)
 - Kennt wiederverwendbare konsistente und wiederholbare Definitionen für die Bereitstellung von Systemen, Services und deren Konfiguration.
-
 3. Dokumentiert
 - Kennt moderne Vorgehensweisen seine Arbeiten zu dokumentieren.
-
 4. Test
 - Kennt wie (automatisierte) Tests als Bestandteil von Services verwendet werden.
-
 5. Sicherheit bei Design (Security byDesign)
 - Kennt wie man schon bei der Planungsphase auf Sicherheitsaspekte eingeht.•Kennt wie konservative Sicherheitseinstellungen verwendet werden.
-
 6. Nachvollziehbarkeit
 - Kennt wie man Versionsverwaltungssysteme einsetzt
 
