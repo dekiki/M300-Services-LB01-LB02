@@ -21,29 +21,7 @@
 
 # Inhaltsverszeichnis
 fsggdf
-## 10-Toolumgebungen 
-Einträge (eigene Erkenntnisse während dem Bearbeiten dieses Kapitels)
 
-## 20-Infrastruktur
-Einträge (eigene Erkenntnisse während dem Bearbeiten dieses Kapitels)
-
-## 35-Sicherheit 1
-Einträge (eigene Erkenntnisse während dem Bearbeiten dieses Kapitels)
-
-## 30-Container
-Einträge (eigene Erkenntnisse während dem Bearbeiten dieses Kapitels)
-
-## 35-Sicherheit 2
-Einträge (eigene Erkenntnisse während dem Bearbeiten dieses Kapitels)
-
-## 40-Container-Orchestrierung
-Einträge (eigene Erkenntnisse während dem Bearbeiten dieses Kapitels)
-
-## 50-Add-ons 
-Einträge (eigene Erkenntnisse während dem Bearbeiten dieses Kapitels)
-
-## 60-Reflexion
-Lernprozess festgehalten (Form frei wählbar)
 
 
 - - -
