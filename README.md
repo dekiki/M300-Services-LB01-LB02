@@ -35,6 +35,8 @@
 
 ### Handlungsziele:
 
+#### Link: https://www.ict-berufsbildung.ch/services/modulbaukasten
+
 #### 1. Aus den Vorgaben die erforderlichen Dienste ermitteln, Schutz- und Sicherheitsanforderungen ableiten und ein Konzept für die Integration der Dienste ausarbeiten.
 
 Handlungsnotwendige Kenntnisse:
