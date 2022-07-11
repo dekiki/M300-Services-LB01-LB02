@@ -20,12 +20,12 @@
 - Ein schneller Netzwerk- (Kabel!) und Internet-Anschluss
 
 # Inhaltsverszeichnis
-- 10 Toolumgebung --> https://github.com/dekiki/M300-Services-LB01-LB02/tree/main///10-Toolumgebung 
+- 10 Toolumgebung 
 - 20 Infrastruktur-Automatisierung
 - 25 Sicherheit
 - 30 Container
 - 35 Sicherheit
-- 40 Container-Orchestrierung
+- 40 Kubernetes
 - 50 Add-ons
 - 60 Reflexion
 
