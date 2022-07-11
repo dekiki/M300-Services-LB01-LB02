@@ -63,7 +63,30 @@ Kubeconfig hinzufügen und dann speichern.
     
 ![image](https://user-images.githubusercontent.com/91592611/178325930-4ba7169a-fb89-402d-836b-cc1b5d3a9cb9.png)
 
-6. 
+6. Nachdem die Verbindung aufgebaut ist, möchte wir überprüfen, ob wir die Nodes auf unserem Gerät sehen
+    --> kubectl get nodes
+    
+![image](https://user-images.githubusercontent.com/91592611/178359332-25b181de-347d-45d2-94ec-7a10425159fe.png)
+
+7. Falls Ihr noch die Kubernetes Cluster Info wissen möchtet:
+    -> kubectl cluster-info
+    
+![image](https://user-images.githubusercontent.com/91592611/178360004-3dafd9f8-32a6-4590-abf0-25dd249a1793.png)
+
+8. Nun kommen wir zum wichtigen Part, nämlich müssen wir noch den image ausführen und das macht man so:
+    -->  kubectl run networkchuckcoffee –-image=thenetworkchuck/nccoffee:pourover –-port=80
+    --> kubectl get pods
+
+![image](https://user-images.githubusercontent.com/91592611/178361650-22ecacd7-bb41-43cf-a141-71a67c9d889f.png)
+
+![image](https://user-images.githubusercontent.com/91592611/178361752-428dd792-48c0-4389-aa61-f3c4802d579a.png)
+
+9. Wenn man mehr Informationen aus den Pods rausholen möchtet, dann macht man das mit diesem command:
+    --> kubectl decribe pods
+
+![image](https://user-images.githubusercontent.com/91592611/178362109-9366d713-9cfb-4631-a33d-763dcf93bb80.png)
+
+10. 
 ## Testing
 Text
 
