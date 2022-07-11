@@ -8,8 +8,18 @@ Hier noch der YT-Kanal von NetworkChunk: https://www.youtube.com/c/NetworkChuck
 
 # Inhaltsverszeichnis
 
-## Service-Aufbau 
-Text
+### Service-Aufbau 
+Mit diesem Link haben wir den Gutschein erhalten: https://www.linode.com/lp/youtube-viewers/?ifso=networkchuck&utm_source=influencer&utm_medium=video&utm_campaign=networkchuck
+1. Linode Konto erstellen, User-Info angeben
+2. Cluster erstellen
+  --> Node Pools auswählen (wir empfehlen 3 gleiche Node Pools)
+  
+  ![image](https://user-images.githubusercontent.com/91592611/178302642-bd4c6e11-37c4-4407-b636-ac564601d760.png)
+  
+
+3. VM (von der Schule erhalten)
+4. Visual Studio Code für configs
+
 
 ## Umsetzung
 Text
