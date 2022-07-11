@@ -115,7 +115,14 @@ Mit diesem command kann man die IP Adresse herauslesen und die ist auch in Linod
 <img width="947" alt="image" src="https://user-images.githubusercontent.com/91592611/178364824-fb9331d5-7ce5-49ba-9a08-f2087eeeccdb.png">
 
 ## Testing
-Text
+Im Linode sowie auch lokal findet man die IP-Adresse der Umgebung. Nun kann man einen Browser öffne und die IP-Adresse eingeben:
+
+Output:
+
+![image](https://user-images.githubusercontent.com/91592611/178365086-dbe88801-11dd-469d-82ae-68259701edcf.png)
+
+#### Ich hoffe wir konnten euch Kubernetes näher bringen und wünschen euch viel spass mit unserer Anleitung!
 
 ## Quellen
-Text
+YT-NetworkChuck: https://www.youtube.com/watch?v=7bA0gTroJjw&t=577s
+NetworkChuck Hilfsmittel: https://networkchuck.com/kubernetes/
