@@ -25,7 +25,7 @@ Mit diesem Link haben wir den Gutschein erhalten: https://www.linode.com/lp/yout
 Bevor wir anfangen möchten wir euch kurz schildern, was Linode ist und wie wir auf einen Kubernetes Cluster erstellt haben.
 Linode bereitet einfache Bereitstellung von Cloud Compute, Speicherung und Vernetzung in Sekundenschnelle mit einer voll funktionsfähigen API, CLI und einer benutzerfreundlichen Cloud-Manager-Oberfläche.
 
-#### Konto erstellen:
+### Konto erstellen:
 
 Geh auf diesem Link: https://www.linode.com/lp/youtube-viewers/?ifso=networkchuck&utm_source=influencer&utm_medium=video&utm_campaign=networkchuck
 1. Klicke nun auf die 3 möglichen anmelde Funktionen.
@@ -36,6 +36,29 @@ Geh auf diesem Link: https://www.linode.com/lp/youtube-viewers/?ifso=networkchuc
 3. Nachdem man alle Daten eingegeben hat, sollte man nun auf das Dashboard zugreifen
 
 ![image](https://user-images.githubusercontent.com/91592611/178304917-135e0992-c62c-4a36-8bec-aeadcf4019ef.png)
+
+### NetworckChunk Coffee on Kubernetes setup:
+1. Zuerst muss man die neuste Version von KubeCTL installieren: curl -LO https://storage.googleapis.com/kubernetes-release/release/$(curl -s https://storage.googleapis.com/kubernetes-release/release/stable.txt)/bin/linux/amd64/kubectl
+
+![image](https://user-images.githubusercontent.com/91592611/178323838-75664999-3e41-44e3-9295-0fd399e32d8d.png)
+
+2. Nach der Installation fügen wir mit diesem command "chmod +x ./kubeclt" die Ausführungsberechtigung für alle Benutzer zu den vorhandenen Berechtigungen hinzu.
+
+![image](https://user-images.githubusercontent.com/91592611/178324287-cde6ee62-16b1-41be-934a-ef1408ab80c8.png)
+
+3. Wir verschieben das Paket nach /usr/local/bin/kubectl mit diesem command "sudo mv ./kubeclt /usr/local/bin/kubeclt
+
+![image](https://user-images.githubusercontent.com/91592611/178324616-4e060fd5-dd56-4000-932a-8bf787342c67.png)
+
+4. Da wir ja im Linode einen Cluster erstellt haben, müssen wir diese zuerst mit unserem Rechner verbinden. Dies machen wir indem wir das config von Linode im "kubeconfig.yaml" kopieren und das machen wir mit folgendem command:
+    --> sudo nano kubeconfig.yaml
+
+![image](https://user-images.githubusercontent.com/91592611/178325246-ccbc9494-895a-4914-84df-688ce82d7933.png)
+Kubeconfig hinzufügen und dann speichern.
+
+![image](https://user-images.githubusercontent.com/91592611/178325369-90e4a80e-9eb0-4dcc-952f-d1a375d0c7fb.png)
+
+
 
 ## Testing
 Text
