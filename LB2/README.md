@@ -86,7 +86,17 @@ Kubeconfig hinzufügen und dann speichern.
 
 ![image](https://user-images.githubusercontent.com/91592611/178362109-9366d713-9cfb-4631-a33d-763dcf93bb80.png)
 
-10. 
+10. Nachdem die Verbindung Online ist, muss man an unserem Master (Linode) sagen, was man alles ausführen möchte. Für das erstellen wir einen yaml file und fügen folgendes rein.
+    --> nano nccoffedeployment.yaml
+    --> kubectl apply -f nccoffedeployment.yaml
+
+![image](https://user-images.githubusercontent.com/91592611/178362964-371b3ae9-be25-451e-b49c-095026447c50.png)
+
+![image](https://user-images.githubusercontent.com/91592611/178363215-85cab79b-e967-482e-be97-4e24f40cbcff.png)
+
+
+11. 
+
 ## Testing
 Text
 
