@@ -58,8 +58,12 @@ Kubeconfig hinzufügen und dann speichern.
 
 ![image](https://user-images.githubusercontent.com/91592611/178325369-90e4a80e-9eb0-4dcc-952f-d1a375d0c7fb.png)
 
+5. Nachdem man das config-file hinzugfügt hat, folgt nun die Verbidung:
+    --> export KUBECONFIG=kubeconfig.yaml
+    
+![image](https://user-images.githubusercontent.com/91592611/178325930-4ba7169a-fb89-402d-836b-cc1b5d3a9cb9.png)
 
-
+6. 
 ## Testing
 Text
 
