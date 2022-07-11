@@ -23,7 +23,7 @@ Mit diesem Link haben wir den Gutschein erhalten: https://www.linode.com/lp/yout
 
 ### Umsetzung
 Bevor wir anfangen möchten wir euch kurz schildern, was Linode ist und wie wir auf einen Kubernetes Cluster erstellt haben.
-Linode bereitet einfache Bereitstellung von Cloud Compute, Speicherung und Vernetzung in Sekundenschnelle mit einer voll funktionsfähigen API, CLI und einer benutzerfreundlichen Cloud-Manager-Oberfläche.
+Linode bereitet einfache Bereitstellung von Cloud Compute, Speicherung und Vernetzung in Sekundenschnelle mit einer voll funktionsfähigen API, CLI und einer benutzerfreundlichen Cloud-Manager-Oberfläche. Einfach gesagt, es ist ein Cloud-Provider.
 
 ### Konto erstellen:
 
