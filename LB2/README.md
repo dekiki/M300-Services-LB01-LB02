@@ -21,8 +21,21 @@ Mit diesem Link haben wir den Gutschein erhalten: https://www.linode.com/lp/yout
 4. Visual Studio Code für configs
 
 
-## Umsetzung
-Text
+### Umsetzung
+Bevor wir anfangen möchten wir euch kurz schildern, was Linode ist und wie wir auf einen Kubernetes Cluster erstellt haben.
+Linode bereitet einfache Bereitstellung von Cloud Compute, Speicherung und Vernetzung in Sekundenschnelle mit einer voll funktionsfähigen API, CLI und einer benutzerfreundlichen Cloud-Manager-Oberfläche.
+
+#### Konto erstellen:
+
+Geh auf diesem Link: https://www.linode.com/lp/youtube-viewers/?ifso=networkchuck&utm_source=influencer&utm_medium=video&utm_campaign=networkchuck
+1. Klicke nun auf die 3 möglichen anmelde Funktionen.
+
+![image](https://user-images.githubusercontent.com/91592611/178303994-1bd20bd3-25bf-41c5-802c-630ff0449d3c.png)
+
+2. Nachdem Login gib deine User-Informationen an und deine Kreditkarte
+3. Nachdem man alle Daten eingegeben hat, sollte man nun auf das Dashboard zugreifen
+
+![image](https://user-images.githubusercontent.com/91592611/178304917-135e0992-c62c-4a36-8bec-aeadcf4019ef.png)
 
 ## Testing
 Text
