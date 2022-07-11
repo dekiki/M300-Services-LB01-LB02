@@ -1,14 +1,21 @@
 M300 - NetworkChuck Coffee on Kubernetes
 ========================================
 
-### Einleitung
+## Einleitung
 Diese Wikiseite zeigt eine kleine Einführung in Kubernetes. NetworkChunk (ein berühmter "nerd" Youtuber) hat uns motiviert, uns mit Kubernetes zusammenzusetzen. Mit hilfe von NetworkChunk konnte wir Schritt für Schritt eine eigene Umgebung aufbauen. Da er selbst auf docker hub sein eigenes image freigestellt hat, konnten wir es natürlich für unser Projekt benutzen. Unser Ziel war es mit Rettung von Ihm, seine Umgebung aufzustellen. Damit es in Betrieb genommen wird, haben wir noch von Ihm 100$ Gutschein erhalten, damit wir auf der Plattform (Linode Cloud Hosting) unseren Kubernetes cluster erstellen können. Nun wollen wir euch das Thema näher bringen und wir zeigen euch alles step by step. VIEL SPASS!
 
 Hier noch der YT-Kanal von NetworkChunk: https://www.youtube.com/c/NetworkChuck
 
-# Inhaltsverszeichnis
+## Inhaltsverszeichnis
+* 01 - [Service-Aufbau](#-01---Service-Aufbau)
+* 02 - [Umsetzung](#-02---Umsetzung)
+* 03 - [NetworckChunk Coffee on Kubernetes setup](#-03---NetworckChunk-Coffee-on-Kubernetes-setup)
+* 04 - [Testing](#-04---Testing)
+* 05 - [Quellenverzeichnis](#-05---quellenverzeichnis)
 
-### Service-Aufbau 
+
+## 01 - Service-Aufbau
+
 Mit diesem Link haben wir den Gutschein erhalten: https://www.linode.com/lp/youtube-viewers/?ifso=networkchuck&utm_source=influencer&utm_medium=video&utm_campaign=networkchuck
 1. Linode Konto erstellen, User-Info angeben
 2. Cluster erstellen
@@ -21,7 +28,8 @@ Mit diesem Link haben wir den Gutschein erhalten: https://www.linode.com/lp/yout
 4. Visual Studio Code für configs
 
 
-### Umsetzung
+## 02 - Umsetzung
+
 Bevor wir anfangen möchten wir euch kurz schildern, was Linode ist und wie wir auf einen Kubernetes Cluster erstellt haben.
 Linode bereitet einfache Bereitstellung von Cloud Compute, Speicherung und Vernetzung in Sekundenschnelle mit einer voll funktionsfähigen API, CLI und einer benutzerfreundlichen Cloud-Manager-Oberfläche. Einfach gesagt, es ist ein Cloud-Provider.
 
@@ -37,7 +45,8 @@ Geh auf diesem Link: https://www.linode.com/lp/youtube-viewers/?ifso=networkchuc
 
 ![image](https://user-images.githubusercontent.com/91592611/178304917-135e0992-c62c-4a36-8bec-aeadcf4019ef.png)
 
-### NetworckChunk Coffee on Kubernetes setup:
+## 03 - NetworckChunk-Coffee-on-Kubernetes-setup
+
 1. Zuerst muss man die neuste Version von KubeCTL installieren: curl -LO https://storage.googleapis.com/kubernetes-release/release/$(curl -s https://storage.googleapis.com/kubernetes-release/release/stable.txt)/bin/linux/amd64/kubectl
 
 ![image](https://user-images.githubusercontent.com/91592611/178323838-75664999-3e41-44e3-9295-0fd399e32d8d.png)
@@ -114,7 +123,8 @@ Mit diesem command kann man die IP Adresse herauslesen und die ist auch in Linod
 
 <img width="947" alt="image" src="https://user-images.githubusercontent.com/91592611/178364824-fb9331d5-7ce5-49ba-9a08-f2087eeeccdb.png">
 
-## Testing
+## 04 - Testing
+
 Im Linode sowie auch lokal findet man die IP-Adresse der Umgebung. Nun kann man einen Browser öffne und die IP-Adresse eingeben:
 
 Output:
@@ -123,6 +133,8 @@ Output:
 
 #### Ich hoffe wir konnten euch Kubernetes näher bringen und wünschen euch viel spass mit unserer Anleitung!
 
-## Quellen
+## 05 - Quellenverzeichnis
+
 YT-NetworkChuck: https://www.youtube.com/watch?v=7bA0gTroJjw&t=577s
+
 NetworkChuck Hilfsmittel: https://networkchuck.com/kubernetes/
