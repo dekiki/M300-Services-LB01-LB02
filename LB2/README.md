@@ -86,7 +86,7 @@ Kubeconfig hinzufügen und dann speichern.
 
 ![image](https://user-images.githubusercontent.com/91592611/178362109-9366d713-9cfb-4631-a33d-763dcf93bb80.png)
 
-10. Nachdem die Verbindung Online ist, muss man an unserem Master (Linode) sagen, was man alles ausführen möchte. Für das erstellen wir einen yaml file und fügen folgendes rein.
+10. Nachdem die Verbindung Online ist, muss man an unserem Master (Linode) sagen, was man alles ausführen möchte. Für das erstellen wir einen yaml file und fügen folgendes rein und dann ausführen.
     --> nano nccoffedeployment.yaml
     --> kubectl apply -f nccoffedeployment.yaml
 
@@ -95,7 +95,24 @@ Kubeconfig hinzufügen und dann speichern.
 ![image](https://user-images.githubusercontent.com/91592611/178363215-85cab79b-e967-482e-be97-4e24f40cbcff.png)
 
 
-11. 
+11. Momentan kann man die Webseite noch nicht erreichen, deswegen sollte man jetzt die Webseite aufschalten. Mit Kubernetes muss man einen Service «deployen», um die Pods zu exposen. Dies ist ein Loadbalancer, dieser exposed die Pods zugleich Loadbalanced er die verschiedenen Pods.
+
+![image](https://user-images.githubusercontent.com/91592611/178363724-8b80e8a1-7878-4671-a4b8-cb2591643c83.png)
+
+12. Damit wir auf unsere Umgebung zugreifen kann, muss man einen yaml-file erstellen und folgendes hinzufügen und dann ausführen:
+    --> nano coffee-service.yaml
+    --> kubectl apply -f coffee-service.yaml
+    
+![image](https://user-images.githubusercontent.com/91592611/178364135-b4e8de28-8161-4255-a84d-373a42a4fafb.png)
+
+![image](https://user-images.githubusercontent.com/91592611/178364367-61736a73-8ac3-4728-b5fa-c3f311a72a2a.png)
+
+13. Nun sollte unsere Umgebung verfügbar sein, aber bevor wir überprüfen, wollen wir wissen, ob wir unser service auch sehen:
+    --> kubeclt get services
+Mit diesem command kann man die IP Adresse herauslesen und die ist auch in Linode unter "Node Balancer" zu finden.
+![image](https://user-images.githubusercontent.com/91592611/178364557-5d65bfa0-2a1a-4e8b-b546-71c5b2674eb1.png)
+
+<img width="947" alt="image" src="https://user-images.githubusercontent.com/91592611/178364824-fb9331d5-7ce5-49ba-9a08-f2087eeeccdb.png">
 
 ## Testing
 Text
